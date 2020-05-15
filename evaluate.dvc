@@ -1,14 +1,14 @@
-md5: 341aec099acc6ccf99524de4799dfd0a
+md5: 8aadd26ee9e0e88102a42711e84eab73
 cmd: python src/evaluate.py models/model.pkl data/vectorized classification.json
 deps:
 - md5: 0e76c0ba127708e9018cb36f32ed2fed
   path: src/evaluate.py
-- md5: c2dc20c9a2c7546a39d18401b00a073b
+- md5: 4380d72c98f865a7c722f12eca7ed843
   path: models/model.pkl
-- md5: dd9f8745bc092ac1c67ec5025237ea26.dir
+- md5: a794267e507be20a1907ea911c9ae5d1.dir
   path: data/vectorized
 outs:
-- md5: 561353732428093bdefd076471de1bac
+- md5: ca3382b8b77d26b43fc5359ff671b255
   path: classification.json
   cache: false
   metric: true

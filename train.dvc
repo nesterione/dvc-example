@@ -1,12 +1,12 @@
-md5: ed2bbfbdb0ec880d455341674bf946a3
+md5: d8422fca19e9f07bd2cda57bd5089239
 cmd: python src/train.py data/vectorized models/model.pkl
 deps:
 - md5: 74e59d3c3c32493df4997ca3898f244b
   path: src/train.py
-- md5: dd9f8745bc092ac1c67ec5025237ea26.dir
+- md5: a794267e507be20a1907ea911c9ae5d1.dir
   path: data/vectorized
 outs:
-- md5: c2dc20c9a2c7546a39d18401b00a073b
+- md5: 4380d72c98f865a7c722f12eca7ed843
   path: models/model.pkl
   cache: true
   metric: false

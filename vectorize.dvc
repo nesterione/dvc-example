@@ -1,17 +1,17 @@
-md5: 0ccdfea30a35e4c0251fcce6bd930422
+md5: 1c37e60d79f1aac95fae184f1965df4d
 cmd: python src/vectorize.py data/prepared data/vectorized models/vectorizer.pkl
 deps:
 - md5: e5ac1db61eb80a7d57a0d32e0b9255ab
   path: src/vectorize.py
-- md5: 308451c81906bea29699cb1d5c7f022b.dir
+- md5: e529c71ed94bf62282c754840974a3ee.dir
   path: data/prepared
 outs:
-- md5: dd9f8745bc092ac1c67ec5025237ea26.dir
+- md5: a794267e507be20a1907ea911c9ae5d1.dir
   path: data/vectorized
   cache: true
   metric: false
   persist: false
-- md5: 17f2b678563e102bd310cf78085ef6ab
+- md5: b3684dcb22764da4b95d899bb6df5d49
   path: models/vectorizer.pkl
   cache: true
   metric: false
