@@ -1,0 +1,13 @@
+md5: ffc559fd79e1e6446383e73eb5efb0d1
+cmd: python src/preproc.py "data/raw/IMDB Dataset.csv"
+deps:
+- md5: 5bf23460373dff9183333b372c50dba8
+  path: src/preproc.py
+- md5: 0030145bd19e18e6733cd406cb015932.dir
+  path: data/raw
+outs:
+- md5: 308451c81906bea29699cb1d5c7f022b.dir
+  path: data/prepared
+  cache: true
+  metric: false
+  persist: false
