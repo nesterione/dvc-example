@@ -35,7 +35,7 @@ def save_matrix(df, matrix, output):
     pass
 
 
-tfidf = TfidfVectorizer()
+tfidf = TfidfVectorizer(ngram_range = (1,2))
 
 train_df = pd.read_csv(train_input)
 train_mx = tfidf.fit_transform(train_df['text'])
